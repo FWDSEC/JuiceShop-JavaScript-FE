@@ -88,6 +88,8 @@ if (environment.production) {
   enableProdMode()
 }
 
+console.log("hello world")
+
 bootstrapApplication(AppComponent, {
     providers: [
         importProvidersFrom(BrowserModule, Routing, TranslateModule.forRoot({
